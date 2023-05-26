@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-image: url('./bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.to {
+    margin: 100px;
+    padding: 10px;
+    
+
+}
+
+.additem input {
+    font-family: 'Libre Baskerville', serif;
+    font-size: large;
+    text-align: left;
+    display: inline-block;
+    width: 450px;
+    padding: 10px;
+    border: 3px solid black;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+
+button {
+    display: inline-block;
+    width: 60px;
+    padding: 12px 15px;
+}
+
+.btn {
+    margin: 0px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+.tasklist
+{
+    margin: 100px;
+    padding: 10px;
+    
+}
+
+.task{
+    display: flex;
+    justify-content: space-between 10%;
+    padding: 10px;
+}
+
+
+
+.content input{
+    font-family: 'Libre Baskerville', serif;
+    font-size: large;
+    text-align: left;
+    display: inline-block;
+    width: 450px;
+    padding: 10px;
+    border: 3px solid black;
+    margin: 0px 10px;
+    border-radius: 10px;
+}
+
+.actions button{
+    
+    margin: 0px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Libre Baskerville', serif;
+}
